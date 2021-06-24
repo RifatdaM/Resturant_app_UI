@@ -21,37 +21,53 @@
   <body>
     <!-- Header design -->
     <header>
-        <nav class="navbar navbar-expand-lg navigation-wrap">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="./img/logo.png" alt="Healthy Food">
-                </a>
-              </div>
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navigation-wrap">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="Healty Food" />
+          </a>
+          <!-- toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collaps"
+            data-bs-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <!-- navbar link -->
+          <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore-food">Explore Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#login">Login</a>
+              </li>
+              <li>
+                <button class="main-btn">Login</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
 
     <!-- JS Library -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
