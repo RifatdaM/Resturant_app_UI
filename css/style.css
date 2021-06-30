@@ -89,7 +89,7 @@ h1 {
   font-size: 3.2rem;
   font-weight: 900;
   margin-bottom: 3.2rem;
-  color: var(--color-secondary);
+  color: var(--color-primary-dark2);
 }
 h2 {
   font-size: 2.8rem;
@@ -117,7 +117,7 @@ h5 {
 }
 p {
   font-size: 1.6rem;
-  color: var(--color-font-light2);
+  color: var(--color-font-dark);
   font-weight: 400;
   line-height: 1.75rem;
   letter-spacing: 1px;
@@ -148,11 +148,11 @@ p {
   line-height: 2.5rem;
   background-color: var(--color-white);
   border: 0.3rem solid var(--color-white);
-  color: var(--color-font-light1);
+  color: var(--color-font-dark);
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: capitalize;
-  box-shadow: 0px 2px 10px -1px rgb(0, 0, 0 / 19%);
+  box-shadow: 0px 2px 10px -1px rgb(0, 0, 0, .19);
   -webkit-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -180,13 +180,14 @@ p {
   color: var(--color-white);
 }
 
-
 /* 
 =================================
 Header Design 
 ================================= 
 */
-
+.navbar-nav{
+  align-items: center;
+}
 .navigation-wrap{
   position: fixed;
   width: 100%;
@@ -194,4 +195,48 @@ Header Design
   z-index: 999;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
+}
+.navigation-wrap .nav-item{
+  padding: 0 1rem;
+  transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+.navigation-wrap .main-btn{
+  padding: .5rem 2.3rem;
+  box-shadow: none;
+  margin-left: 1rem;
+}
+/* Scroll Fix Navbar */
+.navigation-wrap.scroll-on{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-white);
+  box-shadow: 0 0.2rem 2.8rem 0 rgb(0, 0, 0, .9);
+  transition: all .2;
+}
+
+/* 
+=============================
+Top Banner Design
+=============================
+*/
+
+.top-banner{
+  width: 100%;
+  background: url('../img/bg-1.jpg') no-repeat center;
+  background-size: cover;
+  padding: 40rem 0 20rem;
 }
