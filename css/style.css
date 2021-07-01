@@ -84,7 +84,7 @@ img {
   color: var(--color-primary);
 }
 
-/* Custom CSS design for header text */
+/* Custom CSS design */
 h1 {
   font-size: 3.2rem;
   font-weight: 900;
@@ -254,4 +254,78 @@ Counter Design
 .counter-section p{
   color: var(--color-white);
   text-transform: uppercase;
+}
+
+/* 
+=============================
+About Design
+=============================
+*/
+.about-section{
+  background: var(--color-white);
+}
+.about-section .card,
+.about-section  .card img{
+  border-radius: 1rem;
+}
+.about-section .text-sec{
+  padding-left: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
+/* 
+===============================
+Responsive
+===============================
+*/
+
+@media (max-width: 1024px){
+
+}
+@media (max-width: 991px){
+  /* Custom CSS */
+  .text-content{
+    width: 100%;
+  }
+  /* Nav bar */
+  .navigation-wrap .navbar-brand img{
+    height: 6.1rem;
+  }
+  .navigation-wrap{
+    text-align: center;
+    background-color: var(--color-white);
+  }
+  .navigation-wrap .nav-link{
+    line-height: 3rem;
+  }
+  /* Banner */
+  .top-banner{
+    padding: 15rem 0 15rem;
+  }
+
+}
+@media (max-width: 767px){
+  /* Custom CSS */
+  h1{
+    font-size: 4.48rem;
+  }
+  h2{
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+  /* bannar */
+  .top-banner{
+    padding: 17.4rem 0 15rem;
+  }
+
+}
+@media (max-width: 524px){
+
 }

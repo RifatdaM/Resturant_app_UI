@@ -9,6 +9,13 @@ window.onscroll = function () {
     
 }
 // navbar hidden
+let navbar =document.querySelectorAll('.nav-link');
+let navCollapse =document.querySelector('.navbar-collapse.collapse');
+navbar.forEach(function(a){
+    a.addEventListener("click",function(){
+        navCollapse.classList.remove("show");
+    });
+});
 // counter
 document.addEventListener("DOMContentLoaded", () =>{
     function counter(id, start, end, duration){
