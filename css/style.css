@@ -61,7 +61,7 @@ ol {
   padding: 0;
   list-style: none;
 }
-li{
+li {
   font-size: 1.6rem;
 }
 html {
@@ -154,7 +154,7 @@ p {
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: capitalize;
-  box-shadow: 0px 2px 10px -1px rgb(0, 0, 0, .19);
+  box-shadow: 0px 2px 10px -1px rgb(0, 0, 0, 0.19);
   -webkit-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -187,47 +187,47 @@ p {
 Header Design 
 ================================= 
 */
-.navbar-nav{
+.navbar-nav {
   align-items: center;
 }
-.navigation-wrap{
+.navigation-wrap {
   position: fixed;
   width: 100%;
   left: 0;
   z-index: 999;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
-.navigation-wrap .nav-item{
+.navigation-wrap .nav-item {
   padding: 0 1rem;
   transition: all 200ms linear;
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   outline: unset;
   border: unset;
   box-shadow: none;
 }
-.nav-link{
+.nav-link {
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: capitalize;
   color: var(--color-primary);
   letter-spacing: 1px;
 }
-.navigation-wrap .main-btn{
-  padding: .5rem 2.3rem;
+.navigation-wrap .main-btn {
+  padding: 0.5rem 2.3rem;
   box-shadow: none;
   margin-left: 1rem;
 }
 /* Scroll Fix Navbar */
-.navigation-wrap.scroll-on{
+.navigation-wrap.scroll-on {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: var(--color-white);
-  box-shadow: 0 0.2rem 2.8rem 0 rgb(0, 0, 0, .09);
-  transition: all .15s ease-in-out 0s;
+  box-shadow: 0 0.2rem 2.8rem 0 rgb(0, 0, 0, 0.09);
+  transition: all 0.15s ease-in-out 0s;
 }
 
 /* 
@@ -236,9 +236,9 @@ Top Banner Design
 =============================
 */
 
-.top-banner{
+.top-banner {
   width: 100%;
-  background: url('../img/bg-1.jpg') no-repeat center;
+  background: url("../img/bg-1.jpg") no-repeat center;
   background-size: cover;
   padding: 40rem 0 20rem;
 }
@@ -249,11 +249,11 @@ Counter Design
 =============================
 */
 
-.counter-section{
+.counter-section {
   background-color: var(--color-primary);
   padding: 4rem 0;
 }
-.counter-section p{
+.counter-section p {
   color: var(--color-white);
   text-transform: uppercase;
 }
@@ -263,62 +263,62 @@ Counter Design
 About Design
 =============================
 */
-.about-section{
+.about-section {
   background: var(--color-white);
 }
 .about-section .card,
-.about-section  .card img{
+.about-section .card img {
   border-radius: 1rem;
 }
-.about-section .text-sec{
+.about-section .text-sec {
   padding-left: 3.2rem;
 }
-.food-type{
+.food-type {
   padding-top: 5.2rem;
 }
-.food-type ul li{
+.food-type ul li {
   font-size: 1.6rem;
   color: var(--color-font-dark);
   line-height: 32px;
   position: relative;
   margin-left: 30px;
 }
-.food-type ul li::before{
+.food-type ul li::before {
   position: absolute;
   left: -3.5rem;
   color: var(--color-primary);
   font-size: 2rem;
   font-family: "Font Awesome 5 Free";
-  content: '\f00c';
+  content: "\f00c";
   display: inline-block;
   padding: 3px;
   vertical-align: middle;
   font-weight: 900;
 }
-.story-section{
+.story-section {
   width: 100%;
   height: 45rem;
-  background: url('../img/bg-2.jpg') no-repeat center;
+  background: url("../img/bg-2.jpg") no-repeat center;
   background-size: cover;
   padding-top: 100px;
   text-align: center;
 }
-.story-section h2{
+.story-section h2 {
   color: var(--color-primary);
 }
 
 /* Explore Food Design */
-.explore-food .card{
+.explore-food .card {
   border: none;
   background-color: transparent;
   border-radius: 1.5rem;
 }
-.explore-food .card img{
+.explore-food .card img {
   border-radius: 1.5rem;
   object-fit: cover;
   height: 35rem;
 }
-.explore-food .card span{
+.explore-food .card span {
   display: block;
   font-size: 2.4rem;
   font-weight: 700;
@@ -326,9 +326,9 @@ About Design
   padding-bottom: 1.6rem;
   border-bottom: 1px solid #eee;
 }
-.explore-food .card span del{
+.explore-food .card span del {
   color: var(--color-primary-light1);
-  margin-left: .8rem;
+  margin-left: 0.8rem;
 }
 
 /* 
@@ -337,42 +337,120 @@ Testimonial Design
 ===============================
 */
 
-.testimonial-section{
+.testimonial-section {
   background-color: var(--color-primary);
   padding: 6.4rem 0;
 }
-.testimonial-section .carousel-item{
+.testimonial-section .carousel-item {
   margin-top: 4.8rem;
   padding: 16rem 5rem;
   background-color: var(--color-white);
   border-radius: 1.5rem;
   text-align: center;
 }
-.testimonial-section .carousel-item .carousel-caption p{
+.testimonial-section .carousel-item .carousel-caption p {
   font-size: 2.1rem;
   line-height: 3.3rem;
   padding: 0 11% 1rem;
 }
-.testimonial-section .carousel-caption img{
+.testimonial-section .carousel-caption img {
   max-width: 8rem;
   border-radius: 50%;
-  padding: .5rem; 
+  padding: 0.5rem;
 }
-.testimonial-section .carousel-indicators{
+.testimonial-section .carousel-indicators {
   bottom: -4.5rem;
 }
-.testimonial-section .carousel-indicators button{
+.testimonial-section .carousel-indicators button {
   width: 15px;
   height: 15px;
   outline: none;
   border-radius: 50%;
   border: none;
   margin-right: 1.6rem;
-  opacity: .2;
+  opacity: 0.2;
 }
-.testimonial-section .carousel-indicators button.active{
+.testimonial-section .carousel-indicators button.active {
   opacity: 1;
 }
+
+/* 
+===============================
+FAQ Design
+===============================
+*/
+.faq-section h4 span{
+  color: var(--color-primary);
+  font-size: 3rem;
+  margin-right: .5rem;
+}
+
+/* 
+===============================
+Book Food Design
+===============================
+*/
+.book-food{
+  width: 100%;
+  background: url("../img/bg-3.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 7.96rem 0;
+}
+
+/* 
+===============================
+Form Control design
+===============================
+*/
+.newsletter{
+  width: 55%;
+  margin: 0 auto;
+}
+.newsletter .form-control{
+  height: 5.16rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border: .3rem solid #808080;
+  color: var(--color-font-dark);
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: var(--color-primary);
+}
+
+/* 
+===============================
+Footer Design
+===============================
+*/
+
+.footer{
+  background: var(--color-primary);
+}
+.footer .footer-link{
+  font-size: 1.6rem;
+  color: var(--color-white);
+  padding: 0 2rem;
+}
+.footer .footer-link:hover{
+  color: var(--color-white) !important;
+}
+.footer a i{
+  font-size: 2.4rem;
+  color: var(--color-white);
+  padding: 0 1.6rem;
+}
+
+
 
 /* 
 ===============================
@@ -380,51 +458,71 @@ Responsive
 ===============================
 */
 
-@media (max-width: 1024px){
-
+@media (max-width: 1024px) {
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
   /* Custom CSS */
-  .text-content{
+  .text-content {
     width: 100%;
   }
   /* Nav bar */
-  .navigation-wrap .navbar-brand img{
+  .navigation-wrap .navbar-brand img {
     height: 6.1rem;
   }
-  .navigation-wrap{
+  .navigation-wrap {
     text-align: center;
     background-color: var(--color-white);
   }
-  .navigation-wrap .nav-link{
+  .navigation-wrap .nav-link {
     line-height: 3rem;
   }
   /* Banner */
-  .top-banner{
+  .top-banner {
     padding: 15rem 0 15rem;
   }
-
+  /* Carousel */
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0;
+  }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   /* Custom CSS */
-  h1{
+  h1 {
     font-size: 4.48rem;
   }
-  h2{
+  h2 {
     font-size: 3.2rem;
     line-height: 3.5rem;
   }
   /* bannar */
-  .top-banner{
+  .top-banner {
     padding: 17.4rem 0 15rem;
   }
   /* story */
-  .story-section{
+  .story-section {
     height: auto;
     padding: 4.8rem 0;
   }
-
+  /* Carousel */
+  .testimonial-section .carousel-item {
+    padding: 17.6rem 5rem;
+  }
+  /* newsletter */
+  .newsletter{
+    width: 75%;
+  }
+  .newsletter .main-btn{
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+  /* footer */
+  .footer .footer-link,
+  .footer a i{
+    padding: 0 1.12rem;
+  }
 }
-@media (max-width: 524px){
-
+@media (max-width: 370px) {
+  .testimonial-section .carousel-item {
+    padding: 20.8rem 5rem;
+  }
 }
